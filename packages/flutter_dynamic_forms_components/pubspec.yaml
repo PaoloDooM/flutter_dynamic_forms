@@ -13,9 +13,21 @@ dependencies:
   intl: ^0.17.0
   rxdart: ^0.26.0
   
-  expression_language: ^1.0.0
-  dynamic_forms: ^1.0.0
-  flutter_dynamic_forms: ^1.0.0
+  expression_language:
+    git:
+      url: https://github.com/PaoloDooM/flutter_dynamic_forms.git
+      ref: update_dependencies
+      path: packages/expression_language
+  dynamic_forms:
+    git:
+      url: https://github.com/PaoloDooM/flutter_dynamic_forms.git
+      ref: update_dependencies
+      path: packages/dynamic_forms
+  flutter_dynamic_forms:
+    git:
+      url: https://github.com/PaoloDooM/flutter_dynamic_forms.git
+      ref: update_dependencies
+      path: packages/flutter_dynamic_forms
 
 dev_dependencies:
   flutter_test:
