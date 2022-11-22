@@ -13,9 +13,12 @@ dependencies:
   intl: ^0.17.0
   rxdart: ^0.26.0
   
-  expression_language: ^1.0.0
-  dynamic_forms: ^1.0.0
-  flutter_dynamic_forms: ^1.0.0
+  expression_language:
+    path: ../expression_language
+  dynamic_forms:
+    path: ../dynamic_forms
+  flutter_dynamic_forms:
+    path: ../flutter_dynamic_forms
 
 dev_dependencies:
   flutter_test:
