@@ -13,7 +13,7 @@ dependencies:
   expression_language:
     git:
       url: https://github.com/PaoloDooM/flutter_dynamic_forms.git
-      ref: update_dependencies
+      ref: flutter_3
       path: packages/expression_language
   collection: ^1.15.0
 dev_dependencies:
